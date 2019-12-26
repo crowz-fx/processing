@@ -1,17 +1,19 @@
 var angle;
-let screenSizeMultiplier = 0.7;
+let screenSizeMultiplier = 1;
 let colourMultiplier = 0.70;
 let strokeMultiplier = 0.67;
 
 function setup() {
-    createCanvas(displayWidth * screenSizeMultiplier, displayHeight * screenSizeMultiplier);
+    //createCanvas(displayWidth * screenSizeMultiplier, displayHeight * screenSizeMultiplier);
+    var cnv = createCanvas(windowWidth * screenSizeMultiplier, windowHeight * screenSizeMultiplier);
+    cnv.style('display', 'block');
 }
 
 function draw() {
     angle = TWO_PI * 0.93;
     stroke(255);
-    translate(width / 2, height);
-    drawTree(height / 3.5);
+    translate(displayWidth / 2, windowHeight);
+    drawTree(displayHeight / 3.5);
 }
 
 function drawTree(length) {
@@ -42,4 +44,8 @@ function drawTree(length) {
         drawTree(length * 0.67);
         pop();
     }
+}
+
+function windowResized() {
+    resizeCanvas(width, height);
 }

@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 
-html, body, canvas {
+html, body {
     height: 100%;
     width: 100vw;
 }
@@ -20,10 +20,13 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     background-color: #7f8c8d;
+    margin: 0;
+    display: flex;
+  
+    /* This centers our sketch horizontally. */
+    justify-content: center;
+  
+    /* This centers our sketch vertically. */
+    align-items: center;
 }
 
-canvas {
-    margin: 0 auto;;
-    display: block;
-    background-color: #7f8c8d;
-}
