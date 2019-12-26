@@ -4,16 +4,16 @@ let colourMultiplier = 0.70;
 let strokeMultiplier = 0.67;
 
 function setup() {
-    //createCanvas(displayWidth * screenSizeMultiplier, displayHeight * screenSizeMultiplier);
-    var cnv = createCanvas(windowWidth * screenSizeMultiplier, windowHeight * screenSizeMultiplier);
-    cnv.style('display', 'block');
+    createCanvas(windowWidth * screenSizeMultiplier, windowHeight * screenSizeMultiplier);
+    //var cnv = createCanvas(windowWidth * screenSizeMultiplier, windowHeight * screenSizeMultiplier);
+    //cnv.style('display', 'block');
 }
 
 function draw() {
     angle = TWO_PI * 0.93;
     stroke(255);
-    translate(displayWidth / 2, windowHeight);
-    drawTree(displayHeight / 3.5);
+    translate(windowWidth / 2, windowHeight);
+    drawTree(windowHeight / 3.5);
 }
 
 function drawTree(length) {
