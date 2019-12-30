@@ -1,7 +1,8 @@
 This is a container for all of the processing and p5.js sketches that I create, some are based from tutorials, some made completely from scratch and the rest is a combination!
 
 ## Website + More info
-Webiste is avaliable here --> [CrowzFX][2]
+My website is avaliable here --> [CrowzFX][2]  
+Github pages hosting this repo --> [HERE][6]
 
 ## Sketches
 ### Fractal Trees
@@ -22,4 +23,5 @@ Sketch --> [Starfield Paralax][5]
 [3]: https://crowz-fx.github.io/fx_processing/fractal-trees/
 [4]: https://thecodingtrain.com/CodingChallenges/014-fractaltree.html
 [5]: https://crowz-fx.github.io/fx_processing/starfield-paralax/
+[6]: https://crowz-fx.github.io/fx_processing/
 
