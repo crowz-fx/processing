@@ -9,7 +9,8 @@ Github pages hosting this repo --> [HERE][6]
 - [Fractal Trees](#id-fractal-trees)
 - [Starfield Paralax](#id-starfield-paralax)
 
-<div id="id-fractal-trees"></div>
+<div id='id-fractal-trees'/>
+
 ### Fractal Trees
 This is a "tree data structure that keeps data sorted and allows searches and sequential access" [(Wikipedia)][1]. This isn't a true implementation of the algorithm used for fractal trees; however the graphical result of this sketch is very near of that.  
   
@@ -18,6 +19,7 @@ Credit --> [Daniel Shiffman (TheCodingTrain)][4]
 <hr/>
 
 <div id="id-starfield-paralax"></div>
+
 ### Starfield Paralax
 A Star Wars inspired hyperspeed travel through the stars. Mimics what it would be like if you could travel at hyperspeed where the stars would form lines as you catch up to the light? (is that even correct?).  
   
