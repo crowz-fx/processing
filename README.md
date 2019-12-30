@@ -8,6 +8,7 @@ Github pages hosting this repo --> [HERE][6]
 ### Table of Contents
 - [Fractal Trees](#id-fractal-trees)
 - [Starfield Paralax](#id-starfield-paralax)
+<hr/>
 
 <div id='id-fractal-trees'/>
 
