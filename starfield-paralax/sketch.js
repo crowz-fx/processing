@@ -44,7 +44,7 @@ var stars = [];
 function setup() {
     createCanvas(windowWidth, windowHeight);
 
-    for(var i = 0; i < 699; i++) {
+    for(var i = 0; i < 999; i++) {
         stars.push(new Star());
     }
 }
