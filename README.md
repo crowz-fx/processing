@@ -24,6 +24,8 @@ Credit --> [Daniel Shiffman (TheCodingTrain)][4]
 ### Starfield Paralax
 A Star Wars inspired hyperspeed travel through the stars. Mimics what it would be like if you could travel at hyperspeed where the stars would form lines as you catch up to the light? (is that even correct?).  
   
+Press SHIFT on a keyboard or PRESS the screen on a mobile device for HYPERSPEED!
+  
 Sketch --> [Starfield Paralax][5]
 
 

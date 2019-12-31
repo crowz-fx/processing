@@ -7,8 +7,18 @@ class Star {
         this.lastZ = this.z;
     }
 
+    modifyZ() {
+        backgroundColour = 20;
+        this.z = this.z - (45 * screenWidthModifier);
+    }
+
     update() {
-        this.z = this.z - 15;
+        if(keyIsDown(SHIFT) || isMobileDevice) {
+            this.modifyZ();
+        } else {
+            backgroundColour = 0;
+            this.z = this.z - (25 * screenWidthModifier);
+        }
 
         // check if it has reached the centre
         if(this.z < 1) {
@@ -40,17 +50,34 @@ class Star {
 }
 
 var stars = [];
+var screenWidthModifier = 1; // default for larger screen
+var isMobileDevice = false; // default to large screen without touch
+var backgroundColour = 0; // default to black
 
 function setup() {
     createCanvas(windowWidth, windowHeight);
+
+    if(windowWidth < 800) {
+        screenWidthModifier = 0.5;
+    }
 
     for(var i = 0; i < 999; i++) {
         stars.push(new Star());
     }
 }
 
+function touchStarted() {
+    isMobileDevice = true;
+    return false;
+}
+
+function touchEnded() {
+    isMobileDevice = false;
+    return false;
+}
+
 function draw() {
-    background(0);
+    background(backgroundColour);
     translate(width / 2, height / 2);
 
     for(var i = 0; i < stars.length; i++) {
@@ -58,5 +85,3 @@ function draw() {
         stars[i].show();
     }
 }
-
-
