@@ -12,7 +12,14 @@ function setup() {
   //cnv.style('display', 'block');
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 function draw() {
+  const overlayText = document.getElementById("text-overlay");
+  overlayText.textContent = `FPS: ${Number(frameRate()).toFixed(4)}`;
+
   angle = TWO_PI * 0.93;
   stroke(255);
   translate(windowWidth / 2, windowHeight);

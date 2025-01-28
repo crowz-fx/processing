@@ -74,9 +74,16 @@ function touchEnded() {
   return false;
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 function draw() {
   background(backgroundColour);
   translate(width / 2, height / 2);
+
+  const overlayText = document.getElementById("text-overlay");
+  overlayText.textContent = `FPS: ${Number(frameRate()).toFixed(4)}`;
 
   for (var i = 0; i < stars.length; i++) {
     stars[i].update();

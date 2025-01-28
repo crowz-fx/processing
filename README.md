@@ -4,11 +4,16 @@ This is a container for all of the processing and p5.js sketches that I create, 
 
 My CV-like wesbite and portfolio can be [found here][2] and to view this in github pages view [click here][6]
 
+## Running/Setup
+
+To run these locally, to continue dev etc.
+
 ## Sketches
 
 ### Table of Contents
 
 - [Fractal Trees](#id-fractal-trees)
+- [Rubiks Cube](#id-rubiks-cube)
 - [Starfield Paralax](#id-starfield-paralax)
 <hr/>
 
@@ -30,7 +35,7 @@ This is a "tree data structure that keeps data sorted and allows searches and se
 
 ### Rubik's Cube
 
-...
+A WebGL rendered 3D rubik's cube you can rotate in all axises. `CLICK` and drag to rotate the cube
 
 [View Sketch][7]
 

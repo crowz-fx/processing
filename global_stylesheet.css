@@ -32,3 +32,18 @@ body {
   /* This centers our sketch vertically. */
   align-items: center;
 }
+
+canvas {
+  display: block;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 4px;
+}
