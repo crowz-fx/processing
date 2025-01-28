@@ -26,6 +26,16 @@ This is a "tree data structure that keeps data sorted and allows searches and se
 
 <hr/>
 
+<div id="id-rubiks-cube"></div>
+
+### Rubik's Cube
+
+...
+
+[View Sketch][7]
+
+<hr/>
+
 <div id="id-starfield-paralax"></div>
 
 ### Starfield Paralax
@@ -42,3 +52,4 @@ Press `SHIFT` on your keyboard or `CLICK` the screen on a mobile device for HYPE
 [4]: https://thecodingtrain.com/CodingChallenges/014-fractaltree.html
 [5]: https://crowz-fx.github.io/processing/starfield-paralax/
 [6]: https://crowz-fx.github.io/processing/
+[7]: https://crowz-fx.github.io/processing/rubiks-cube
