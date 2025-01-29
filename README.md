@@ -13,6 +13,7 @@ To run these locally, to continue dev etc.
 ### Table of Contents
 
 - [Fractal Trees](#id-fractal-trees)
+- [Phyllotaxis](#id-phyllotaxis)
 - [Rubiks Cube](#id-rubiks-cube)
 - [Starfield Paralax](#id-starfield-paralax)
 <hr/>
@@ -28,6 +29,16 @@ This is a "tree data structure that keeps data sorted and allows searches and se
 #### Credit(s)
 
 - [Daniel Shiffman (TheCodingTrain)][4]
+
+<hr/>
+
+<div id="id-phyllotaxis"></div>
+
+### Phyllotaxis
+
+A colourful example of phyllotactic patterns as seen in nature. "In botany, phyllotaxis or phyllotaxy is the arrangement of leaves on a plant stem. Phyllotactic spirals form a distinctive class of patterns in nature." Read more about this on [Wikipedia][9].
+
+[View Sketch][8]
 
 <hr/>
 
@@ -58,3 +69,5 @@ Press `SHIFT` on your keyboard or `CLICK` the screen on a mobile device for HYPE
 [5]: https://crowz-fx.github.io/processing/starfield-paralax/
 [6]: https://crowz-fx.github.io/processing/
 [7]: https://crowz-fx.github.io/processing/rubiks-cube
+[8]: https://crowz-fx.github.io/processing/phyllotaxis
+[9]: https://crowz-fx.github.io/processing/phyllotaxis
